@@ -1,0 +1,115 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <title> Task </title>
+  <div class="container">
+    <div id="menu">
+      <div class="row">
+        <div class="col-xs-12 col-sm-1 col-md-1">
+          <img id="logo" src="logo.jpg" alt="logo">
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <p id="menu"><a class="home" href="#home"> Home </a></p>
+          <p id="menu"><a href="#portfolio"> Portfolio </a></p>
+          <p id="menu"><a href="#journal"> Journal </a></p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <p id="menu"><a href="#about"> About </a></p>
+          <p id="menu"><a href="#contact"> Contact </a></p>
+          <p id="menu"><a href="#twitter"> Twitter </a></p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
+          <div class="request">
+            <span class="icon"><i class="fa fa-search"></i></span>
+            <input type="search" id="search" onkeypress="search()">
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="top_carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#top_carousel" data-slide-to="0" class=""></li>
+        <li data-target="#top_carousel" data-slide-to="1" class=""></li>
+        <li data-target="#top_carousel" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item">
+          <img src="top.png" alt="photo of Bear">
+        </div>
+        <div class="item">
+          <img src="top.png" alt="photo of Bear">
+        </div>
+        <div class="item active">
+          <img src="top.png" alt="photo of Bear">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#top_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="right carousel-control" href="#top_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+    <h1> We Love Clean &amp; Minimal Design </h1>
+    <hr>
+    <div id="text" class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2> Responsive Design </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a class="read" href="#"> Read More &gt;</a>
+      </div>
+      <div id="text" class="col-xs-12 col-sm-6 col-md-4">
+        <h3> Less is More </h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a class="read" href="#"> Read More &gt;</a>
+      </div>
+      <div id="text" class="col-xs-12 col-sm-6 col-md-4">
+        <h4> Use Media Queries </h4>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a class="read" href="#"> Read More &gt;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div id="text" class="col-xs-12 col-sm-6 col-md-3">
+        <h5> Latest Work </h5>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a class="read" href="#"> Read More &gt;</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img id="photo" class="img-responsive" src="1.png" alt="photo of tap">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img id="photo" class="img-responsive" src="2.png" alt="photo of bear">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img id="photo" class="img-responsive" src="3.png" alt="photo of girl">
+      </div>
+    </div>
+    <hr>
+    <div id="footer">
+      <div class="row">
+        <div class="col-md-4 col-md-push-8">
+          <p id="link">
+            <a href="#"> Home </a>
+            <a href="#"> Contact </a>
+            <a href="#"> Work </a>
+            <a href="#"> Journal </a>
+          </p>
+        </div>
+        <div class="col-md-6 col-md-pull-4">
+          <p id="copy"> Copyright 2011 <strong> Company. </strong> All Rights Reversed. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
